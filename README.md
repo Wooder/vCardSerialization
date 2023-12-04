@@ -1,5 +1,13 @@
 # vCardSerialization
 
+## What is this fork for?
+This forked Version fixes the "SDK does not contain 'libarclite' at the path '/Applications/Xcode-15.0.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a'; try increasing the minimum deployment target" problem.
+
+The Problem appeared with Xcode 15.
+
+Heres the untouched orignal README:
+
+
 > This library is no longer maintained.
 > In iOS 9.0+ and macOS 10.11+,
 > use [`CNContactVCardSerialization`](https://developer.apple.com/documentation/contacts/cncontactvcardserialization) instead.
